@@ -1,0 +1,95 @@
+ body{
+     background-color: rgb(32, 32, 32);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     min-height: 100vh;
+     margin: 0;
+     flex-direction: column;
+ }
+ 
+ 
+ 
+ #pageHeader {
+     color: rgb(255, 253, 151);
+     font-size: 400%;
+     text-align: center;
+     font-family: 'Saira', sans-serif;
+     
+ }
+
+ #mainBox { 
+     background-color: rgb(158, 158, 158);
+     width: 50%;
+     height: auto;
+     margin-top: 10px;
+     border-color: rgb(255, 253, 151);
+     border-style: solid;
+     border-radius: 25px;
+     box-shadow: rgb(255, 253, 151);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     
+ }
+
+
+ #boxHeader {
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 150%;
+ }
+
+ #newPass {
+    width: 80%;
+    margin: auto;
+    height: 4rem;
+    background-color: white;
+    border-radius: 3px;
+    font-family: 'Saira', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    word-break: break-all;
+ }
+
+
+form {
+    font-family: 'Saira', sans-serif;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+button{
+    font-family: 'Saira', sans-serif; 
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+#userLength{
+    width: 3rem;
+}
+
+#newPass{
+    text-align: center;
+    padding: 1rem;
+    height: auto;
+}
+
+.pwBox{
+    height: auto;
+    width: 90%;
+}

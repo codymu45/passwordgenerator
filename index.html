@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Saira&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Page Header-->
+    <h1 id = "pageHeader">Password Generator</h1>
+
+    <!-- Main Box -->
+    <section id = "mainBox">
+
+        <!--Box header-->
+        <p id = "boxHeader">Generate a Secure Password!</p>
+
+        <div class="pwBox">
+          <!--Box to present users generated password-->
+          <h3 id = "newPass">Your New Password</h3>
+        </div>
+       
+       
+       
+         <!--Creating the buttons for character preference-->
+      <form id="passGen" class="inputs">
+
+        <!--Input text box for user's preferred length-->
+        
+        <label for = "userLength">Length of Password (8-128) :</label>
+        <input type="number" min="8" max="128" value="10" id="userLength" name="userLength">
+
+        <br>
+
+        <input type="checkbox" id="checkUppercase" checked="checked">
+        <label for="checkUppercase">Uppercase Letters</label>
+
+        <br>
+
+        <input type="checkbox" id="checkLowercase" checked="checked">
+        <label for="checkLowercase">Lowercase Letters</label>
+
+        <br>
+
+        <input type="checkbox" id="checkNumbers" checked="checked">
+        <label for="checkNumbers">Numbers</label>
+
+        <br>
+
+        <input type="checkbox" id="checkSymbols" checked="checked">
+        <label for="checkSymbols">Symbols</label>
+
+        <br>
+
+        <!--generate button-->
+        <button type="button" id="generate" onclick="printPass();" >Generate</button>
+
+      </form>
+
+    </section>
+    
+    
+</body>
+</html>
+
